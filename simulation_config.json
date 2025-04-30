@@ -1,0 +1,41 @@
+{
+    "simulation_parameters": {
+      "kvp": 300.0,
+      "anode_angle": 20.0,
+      "min_energy_kev": 0.0,
+      "max_energy_kev": 300.0,
+      "output_basename": "maXerial"
+    },
+    "filter_combinations": [
+      {
+        "label": "Unfiltered",
+        "filters": []
+      },
+      {
+        "label": "0.5mm Cu",
+        "filters": [
+          ["Cu", 0.5]
+        ]
+      },
+      {
+        "label": "1.5mm Cu",
+        "filters": [
+          ["Cu", 1.5]
+        ]
+      },
+      {
+        "label": "0.5 mm Sn + 0.5mm Cu",
+        "filters": [
+          ["Sn", 0.5],
+          ["Cu", 0.5]
+        ]
+      },
+      {
+        "label": "1.0mm Sn + 0.5mm Cu",
+        "filters": [
+          ["Sn", 1.0],
+          ["Cu", 0.5]
+        ]
+      }
+    ]
+  }
