@@ -1,10 +1,10 @@
 {
     "simulation_parameters": {
-      "kvp": 300.0,
-      "anode_angle": 20.0,
+      "kvp": 450.0,
+      "anode_angle": 11.0,
       "min_energy_kev": 0.0,
-      "max_energy_kev": 300.0,
-      "output_basename": "maXerial"
+      "max_energy_kev": 450.0,
+      "output_basename": "TV-Motor-Block"
     },
     "filter_combinations": [
       {
@@ -12,29 +12,41 @@
         "filters": []
       },
       {
-        "label": "0.5mm Cu",
+        "label": "2.0 mm Sn + 0.5mm Cu",
         "filters": [
+          ["Sn", 2.0],
           ["Cu", 0.5]
         ]
       },
       {
-        "label": "1.5mm Cu",
+        "label": "2.0 mm W",
         "filters": [
-          ["Cu", 1.5]
+          ["W", 2.0]
         ]
       },
       {
-        "label": "0.5 mm Sn + 0.5mm Cu",
+        "label": "2.0 mm W + 0.5mm Cu",
         "filters": [
-          ["Sn", 0.5],
+          ["W", 2.0],
           ["Cu", 0.5]
         ]
       },
       {
-        "label": "1.0mm Sn + 0.5mm Cu",
+        "label": "2.0 mm Pb",
         "filters": [
-          ["Sn", 1.0],
-          ["Cu", 0.5]
+          ["Pb", 2.0]
+        ]
+      },
+      {
+        "label": "2.0 mm Mo",
+        "filters": [
+          ["Mo", 2.0]
+        ]
+      },
+      {
+        "label": "2.0 mm Bi",
+        "filters": [
+          ["Bi", 2.0]
         ]
       }
     ]
